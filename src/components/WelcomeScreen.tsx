@@ -15,6 +15,13 @@ export const WelcomeScreen = ({
 }: WelcomeScreenProps) => (
   <div className="flex items-center justify-center flex-1 px-4">
     <div className="w-full max-w-3xl mx-auto text-center">
+      <img
+        src="/images/hero-landscape.jpg"
+        alt="Mountains and a lakeside cabin reflected in a calm alpine lake"
+        width={1120}
+        height={400}
+        className="w-full max-w-xl mx-auto mb-6 rounded-2xl border border-orange-500/20"
+      />
       <h1 className="mb-4 text-6xl font-bold text-transparent uppercase bg-gradient-to-r from-orange-500 to-red-600 bg-clip-text">
         <span className="text-white">TanStack</span> Chat
       </h1>
